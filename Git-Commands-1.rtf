@@ -5,26 +5,43 @@
 \paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 git status-> Gives the status of the local\
+\f0\fs24 \cf0 git status-> Gives the status of the repo\
 \
-git init\
+git init-> Initialises the git repo\
 \
-git config -global user.name "Let's Kode It"\
+git config -global user.name "Let's Kode It" -> Specifies Username globally\
 \
-git config --global user.email letskodeit@gmail.com\
+git config --global user.email letskodeit@gmail.com -> Specifies email globally\
 \
-git config user.name "Let's Kode It"\
+git config user.name "Let's Kode It" -> Specifies Username for particular repo\
 \
-git config user.email letskodeit@gmail.com\
+git config user.email letskodeit@gmail.com -> Specifies email for particular repo\
 \
-git add\
+git add -> Add file to staging Env\
 \
-git commit -m \
+git commit -m  -> Commit file to local repo\
 \
-git log\
+git log -> Check file log history\
 \
 Git diff <filename>\
 \
+git remote add origin<Git Repository URL> -> Establish connection to remote GitHub repo\
+\
+Git push origin master -> push to master branch\
+\
+\
+package tutorialselenium;\
+\
+import java.util.List;\
+import java.util.concurrent.TimeUnit;\
+\
+import org.junit.After;\
+import org.junit.Before;\
+import org.junit.Test;\
+import org.openqa.selenium.By;\
+import org.openqa.selenium.WebDriver;\
+import org.openqa.selenium.WebElement;\
+import org.openqa.selenium.chrome.ChromeDriver;}
 \
 public class AutocompleteDemo \{\
 	private WebDriver driver;\
@@ -70,3 +87,4 @@ public class AutocompleteDemo \{\
 		// driver.quit();\
 	\}\
 \}}
+
